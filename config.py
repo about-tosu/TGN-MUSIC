@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI",None) 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2000))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Indianbotupdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheGodfatherChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_tosuu")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nothing_bots_support")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -50,8 +50,8 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )  # Remember to give value in Seconds
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", bcfe26b0ebc3428882a0b5fb3e872473)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", 907c6a054c214005aeae1fd752273cc4)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -82,21 +82,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org/file/4c2e001947036bd0a109c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/b55344a1bb8076f923183.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4c2e001947036bd0a109c.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+STATS_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+STREAM_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4c2e001947036bd0a109c.jpg"
 
 
 def time_to_seconds(time):
